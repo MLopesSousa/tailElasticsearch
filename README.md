@@ -10,5 +10,3 @@ O segundo parâmetro é referente a string de busca usada no kibana. Ex.: Se a s
 Exemplo de uso:
     bash /tmp/lessElastic.sh 1000 '@fields.servidor:jdg-6.6.0 @fields.instance:standalone-instance-jvh35'
     
-Obs: Por padrão o script aponta para homologação, caso seja necessário mudar para produção a variável ELASTICSERCH_SERVER 
-deve sera alterada para http://172.30.121.216:80 dentro do tailElasticsearch.sh
